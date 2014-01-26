@@ -3,13 +3,16 @@ using System.Collections;
 
 [AddComponentMenu("PlayerStuff/PlayerMove")]
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Sticky))]
 public class PlayerMove : MonoBehaviour {
+	private Sticky sticky;
 
 
 	void Start () {
-	
+		sticky = GetComponent<Sticky>();
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () {
 
@@ -30,18 +33,7 @@ public class PlayerMove : MonoBehaviour {
 		rigidbody.AddForce(-0.1f * rigidbody.velocity);
 		rigidbody.AddTorque(-0.1f * rigidbody.angularVelocity);
 
-	}
-
-	void OnTriggerEnter(Collider other){
-		GameObject part = other.gameObject;
-
-		part.transform.parent = transform;
-
-		FixedJoint joint = transform.gameObject.AddComponent<FixedJoint>();
-		joint.connectedBody = part.rigidbody;
-
-		//add this to a list or map or something so it updates shooters?
-
+		sticky.Run();
 	}
 
 }
