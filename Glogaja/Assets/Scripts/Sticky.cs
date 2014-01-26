@@ -21,14 +21,10 @@ public class Sticky : MonoBehaviour {
 		Sticky otherSticky = part.GetComponent<Sticky>();
 
 		//add to tree if sticky
-		if(otherSticky == null){
 
 			Debug.Log("adding " + part.transform.name + " to " + transform.name);
 			//remove the trigger
 			part.collider.isTrigger = false;
-
-			//set parent for heirarchy
-			part.transform.parent = transform;
 
 			//add fixed joint to make them move together
 			FixedJoint joint = transform.gameObject.AddComponent<FixedJoint>();
@@ -38,7 +34,7 @@ public class Sticky : MonoBehaviour {
 
 			//add to tree
 			children.Add(otherSticky,joint);
-		}
+		 	
 
 
 	}
