@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 
 public class Sticky : MonoBehaviour {
+
 	Dictionary<Sticky,FixedJoint> children = new Dictionary<Sticky, FixedJoint>();
-	Boost booster;
+
+	Effect effect;
 
 
 	public void Run(){
@@ -13,14 +15,29 @@ public class Sticky : MonoBehaviour {
 			child.Run();
 		}
 
-		if(booster != null){
-			booster.Run();
+		if(effect != null){
+			effect.Run();
 		}
-
 	}
 
-	void Start(){
-		booster = GetComponent<Boost>();
+	//recursively collect all the candy powers
+	public float GetPower(){
+		float pow = 0.0f;
+
+		if(effect != null){
+			pow += effect.GetPower();
+		}
+
+		foreach(Sticky child in children.Keys){
+			pow += child.GetPower();
+		}
+
+		return pow;
+	}
+
+
+	void Awake(){
+		effect = GetComponent<Effect>();
 	}
 
 	void OnTriggerEnter(Collider other){

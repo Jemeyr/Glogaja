@@ -10,6 +10,9 @@ public class PlayerMove : MonoBehaviour {
 	public float positionSlowdown = 0.9f;
 	public float rotationSlowdown = 0.9f;
 
+	public float power = 1.0f;
+	public float torque = 1.0f;
+
 
 	void Start () {
 		sticky = GetComponent<Sticky>();
@@ -19,26 +22,33 @@ public class PlayerMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		//move
 		if (Input.GetKey(KeyCode.W)){
-			rigidbody.AddForce(transform.forward);
+			rigidbody.AddForce(power * transform.forward);
 		}
 		else if (Input.GetKey(KeyCode.S)){
-			rigidbody.AddForce(-transform.forward);
+			rigidbody.AddForce(power * -transform.forward);
 		}
 		else{
 			rigidbody.AddForce(-positionSlowdown * rigidbody.velocity);
 		}
 
-
+		//turn
 		if (Input.GetKey(KeyCode.A)){
-			rigidbody.AddTorque(-transform.up);
+			rigidbody.AddTorque(torque * -transform.up);
 		}
 		else if (Input.GetKey(KeyCode.D)){
-			rigidbody.AddTorque(transform.up);
+			rigidbody.AddTorque(torque * transform.up);
 		}
 		else{
 			rigidbody.AddTorque(-rotationSlowdown * rigidbody.angularVelocity);
 		}
+
+		//test power value
+		if (Input.GetKeyDown(KeyCode.Space)){
+			Debug.Log(sticky.GetPower());
+		}
+
 
 		sticky.Run();
 	}

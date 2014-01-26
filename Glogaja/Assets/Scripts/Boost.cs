@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Boost : MonoBehaviour {
+public class Boost : Effect {
 
 	public float power = 1.0f;
 
-	public void Run () {
+	public override void Run () {
 		if (Input.GetKey(KeyCode.W)){
 			rigidbody.AddForce(power * transform.forward);
 		}
@@ -13,6 +13,9 @@ public class Boost : MonoBehaviour {
 			rigidbody.AddForce(power * -transform.forward);
 		}
 	}
-	
+
+	public override float GetPower() {
+		return 0.0f;
+	}
 
 }
