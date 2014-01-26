@@ -82,12 +82,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1916972}
-  - 33: {fileID: 1916971}
   - 23: {fileID: 1916970}
   - 54: {fileID: 1916969}
   - 136: {fileID: 1916968}
   - 114: {fileID: 1916967}
   - 114: {fileID: 1916973}
+  - 33: {fileID: 1916971}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -1379,6 +1379,46 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8c97e1955f8cf04495bfd3ed2fda496, type: 2}
   m_RootGameObject: {fileID: 1364896545}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1001 &101925012
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5.63308239
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -17.3178158
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.637807667
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.30528909
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.305289209
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .637807548
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+  m_RootGameObject: {fileID: 568725690}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &128526857
@@ -2973,12 +3013,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 280495862}
-  - 33: {fileID: 280495861}
   - 23: {fileID: 280495860}
   - 54: {fileID: 280495859}
   - 136: {fileID: 280495858}
   - 114: {fileID: 280495857}
   - 114: {fileID: 280495863}
+  - 33: {fileID: 280495861}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -3196,12 +3236,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 313132250}
-  - 33: {fileID: 313132249}
   - 23: {fileID: 313132248}
   - 54: {fileID: 313132247}
   - 136: {fileID: 313132246}
   - 114: {fileID: 313132245}
   - 114: {fileID: 313132251}
+  - 33: {fileID: 313132249}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -3419,12 +3459,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 321674298}
-  - 33: {fileID: 321674297}
   - 23: {fileID: 321674296}
   - 54: {fileID: 321674295}
   - 136: {fileID: 321674294}
   - 114: {fileID: 321674293}
   - 114: {fileID: 321674299}
+  - 33: {fileID: 321674297}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -3528,46 +3568,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &325641197
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1223859234}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 3.74270296
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 9.98518658
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -.678365827
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -.199549168
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -.199549243
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: .678365707
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-  m_RootGameObject: {fileID: 1784559391}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1001 &341350791
 Prefab:
   m_ObjectHideFlags: 0
@@ -3616,12 +3616,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 364128836}
-  - 33: {fileID: 364128835}
   - 23: {fileID: 364128834}
   - 54: {fileID: 364128833}
   - 136: {fileID: 364128832}
   - 114: {fileID: 364128837}
   - 114: {fileID: 364128838}
+  - 33: {fileID: 364128835}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -4843,12 +4843,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 402581003}
-  - 33: {fileID: 402581002}
   - 23: {fileID: 402581001}
   - 54: {fileID: 402581000}
   - 136: {fileID: 402580999}
   - 114: {fileID: 402580998}
   - 114: {fileID: 402581004}
+  - 33: {fileID: 402581002}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -5000,12 +5000,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 405395209}
-  - 33: {fileID: 405395208}
   - 23: {fileID: 405395207}
   - 54: {fileID: 405395206}
   - 136: {fileID: 405395205}
   - 114: {fileID: 405395204}
   - 114: {fileID: 405395210}
+  - 33: {fileID: 405395208}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -5237,12 +5237,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 456965512}
-  - 33: {fileID: 456965511}
   - 23: {fileID: 456965510}
   - 54: {fileID: 456965509}
   - 136: {fileID: 456965508}
   - 114: {fileID: 456965507}
   - 114: {fileID: 456965513}
+  - 33: {fileID: 456965511}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -5514,12 +5514,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 501578206}
-  - 33: {fileID: 501578205}
   - 23: {fileID: 501578204}
   - 54: {fileID: 501578203}
   - 136: {fileID: 501578202}
   - 114: {fileID: 501578201}
   - 114: {fileID: 501578207}
+  - 33: {fileID: 501578205}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -5623,6 +5623,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &508280753
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1223859234}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.74270296
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 9.98518658
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.678365827
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.199549168
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.199549243
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .678365707
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
+  m_RootGameObject: {fileID: 1784559391}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &547486916
 GameObject:
   m_ObjectHideFlags: 0
@@ -5631,12 +5671,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 547486922}
-  - 33: {fileID: 547486921}
   - 23: {fileID: 547486920}
   - 54: {fileID: 547486919}
   - 136: {fileID: 547486918}
   - 114: {fileID: 547486917}
   - 114: {fileID: 547486923}
+  - 33: {fileID: 547486921}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -5780,6 +5820,110 @@ Prefab:
   m_RootGameObject: {fileID: 1424751810}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &568725690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+  m_PrefabInternal: {fileID: 101925012}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 568725696}
+  - 23: {fileID: 568725695}
+  - 136: {fileID: 568725694}
+  - 54: {fileID: 568725693}
+  - 114: {fileID: 568725692}
+  - 33: {fileID: 568725691}
+  m_Layer: 0
+  m_Name: lollypop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &568725691
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: cb7436dc31eda8f4895ff7c708600465,
+    type: 2}
+  m_PrefabInternal: {fileID: 101925012}
+  m_GameObject: {fileID: 568725690}
+  m_Mesh: {fileID: 4300000, guid: c8636e62e301e2841b78c30bf62eed86, type: 3}
+--- !u!114 &568725692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: cb7436dc31eda8f4895ff7c708600465,
+    type: 2}
+  m_PrefabInternal: {fileID: 101925012}
+  m_GameObject: {fileID: 568725690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699ce5569c1120749af1d7f3d0cdf816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: 15
+--- !u!54 &568725693
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: cb7436dc31eda8f4895ff7c708600465,
+    type: 2}
+  m_PrefabInternal: {fileID: 101925012}
+  m_GameObject: {fileID: 568725690}
+  serializedVersion: 2
+  m_Mass: .300000012
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &568725694
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13600000, guid: cb7436dc31eda8f4895ff7c708600465,
+    type: 2}
+  m_PrefabInternal: {fileID: 101925012}
+  m_GameObject: {fileID: 568725690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: .330000013
+  m_Height: 2.58999991
+  m_Direction: 0
+  m_Center: {x: -.75, y: 0, z: 0}
+--- !u!23 &568725695
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: cb7436dc31eda8f4895ff7c708600465,
+    type: 2}
+  m_PrefabInternal: {fileID: 101925012}
+  m_GameObject: {fileID: 568725690}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 6c49bfb8330c22041847fe7a34a2f60c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!4 &568725696
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+  m_PrefabInternal: {fileID: 101925012}
+  m_GameObject: {fileID: 568725690}
+  m_LocalRotation: {x: -.637807667, y: -.30528909, z: -.305289209, w: .637807548}
+  m_LocalPosition: {x: 5.63308239, y: 0, z: -17.3178158}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1001 &574802587
 Prefab:
   m_ObjectHideFlags: 0
@@ -8168,12 +8312,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 671642594}
-  - 33: {fileID: 671642593}
   - 23: {fileID: 671642592}
   - 54: {fileID: 671642591}
   - 136: {fileID: 671642590}
   - 114: {fileID: 671642589}
   - 114: {fileID: 671642595}
+  - 33: {fileID: 671642593}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -8285,12 +8429,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 712261451}
-  - 33: {fileID: 712261450}
   - 23: {fileID: 712261449}
   - 54: {fileID: 712261448}
   - 136: {fileID: 712261447}
   - 114: {fileID: 712261446}
   - 114: {fileID: 712261452}
+  - 33: {fileID: 712261450}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -8402,12 +8546,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 720457811}
-  - 33: {fileID: 720457810}
   - 23: {fileID: 720457809}
   - 54: {fileID: 720457808}
   - 136: {fileID: 720457807}
   - 114: {fileID: 720457806}
   - 114: {fileID: 720457812}
+  - 33: {fileID: 720457810}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -8559,12 +8703,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 752443547}
-  - 33: {fileID: 752443546}
   - 23: {fileID: 752443545}
   - 54: {fileID: 752443544}
   - 136: {fileID: 752443543}
   - 114: {fileID: 752443542}
   - 114: {fileID: 752443548}
+  - 33: {fileID: 752443546}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -8756,12 +8900,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 791920636}
-  - 33: {fileID: 791920635}
   - 23: {fileID: 791920634}
   - 54: {fileID: 791920633}
   - 136: {fileID: 791920632}
   - 114: {fileID: 791920631}
   - 114: {fileID: 791920637}
+  - 33: {fileID: 791920635}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -8873,12 +9017,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 819979807}
-  - 33: {fileID: 819979806}
   - 23: {fileID: 819979805}
   - 54: {fileID: 819979804}
   - 136: {fileID: 819979803}
   - 114: {fileID: 819979802}
   - 114: {fileID: 819979808}
+  - 33: {fileID: 819979806}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -8990,12 +9134,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 829504236}
-  - 33: {fileID: 829504235}
   - 23: {fileID: 829504234}
   - 54: {fileID: 829504233}
   - 136: {fileID: 829504232}
   - 114: {fileID: 829504231}
   - 114: {fileID: 829504237}
+  - 33: {fileID: 829504235}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -9281,12 +9425,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 918398201}
-  - 33: {fileID: 918398200}
   - 23: {fileID: 918398199}
   - 54: {fileID: 918398198}
   - 136: {fileID: 918398197}
   - 114: {fileID: 918398202}
   - 114: {fileID: 918398203}
+  - 33: {fileID: 918398200}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -9390,6 +9534,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &932175563
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.32542181
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 7.04767132
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106888
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106769
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+      propertyPath: m_Name
+      value: lolly
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+  m_RootGameObject: {fileID: 2134783570}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &952569722
 GameObject:
   m_ObjectHideFlags: 0
@@ -10694,12 +10882,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1032426962}
-  - 33: {fileID: 1032426961}
   - 23: {fileID: 1032426960}
   - 54: {fileID: 1032426959}
   - 136: {fileID: 1032426958}
   - 114: {fileID: 1032426957}
   - 114: {fileID: 1032426963}
+  - 33: {fileID: 1032426961}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -10957,12 +11145,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1056822840}
-  - 33: {fileID: 1056822839}
   - 23: {fileID: 1056822838}
   - 54: {fileID: 1056822836}
   - 136: {fileID: 1056822835}
   - 114: {fileID: 1056822837}
   - 114: {fileID: 1056822841}
+  - 33: {fileID: 1056822839}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -11114,12 +11302,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1099510337}
-  - 33: {fileID: 1099510336}
   - 23: {fileID: 1099510335}
   - 54: {fileID: 1099510334}
   - 136: {fileID: 1099510333}
   - 114: {fileID: 1099510332}
   - 114: {fileID: 1099510338}
+  - 33: {fileID: 1099510336}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -11231,8 +11419,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1110992769}
-  - 33: {fileID: 1110992768}
-  - 23: {fileID: 1110992767}
   - 54: {fileID: 1110992771}
   - 114: {fileID: 1110992770}
   - 64: {fileID: 1110992772}
@@ -11245,36 +11431,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!23 &1110992767
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: b64bd5d0a591a774c9dd4489e7722182,
-    type: 3}
-  m_PrefabInternal: {fileID: 185538670}
-  m_GameObject: {fileID: 1110992765}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 06fb6e28ff3307d468cbeedf4bdebe92, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
---- !u!33 &1110992768
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: b64bd5d0a591a774c9dd4489e7722182,
-    type: 3}
-  m_PrefabInternal: {fileID: 185538670}
-  m_GameObject: {fileID: 1110992765}
-  m_Mesh: {fileID: 4300000, guid: e0c995137f49c3948b189dbe0681fb68, type: 3}
 --- !u!4 &1110992769
 Transform:
   m_ObjectHideFlags: 0
@@ -11287,6 +11443,7 @@ Transform:
   m_Children:
   - {fileID: 619844128}
   - {fileID: 1461875996}
+  - {fileID: 1411778701}
   m_Father: {fileID: 0}
 --- !u!114 &1110992770
 MonoBehaviour:
@@ -11330,7 +11487,7 @@ MeshCollider:
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
   m_Convex: 0
-  m_Mesh: {fileID: 4300000, guid: e0c995137f49c3948b189dbe0681fb68, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
 --- !u!114 &1110992773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11441,12 +11598,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1127929306}
-  - 33: {fileID: 1127929305}
   - 23: {fileID: 1127929304}
   - 54: {fileID: 1127929303}
   - 136: {fileID: 1127929302}
   - 114: {fileID: 1127929301}
   - 114: {fileID: 1127929307}
+  - 33: {fileID: 1127929305}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -11558,12 +11715,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1150839599}
-  - 33: {fileID: 1150839598}
   - 23: {fileID: 1150839597}
   - 54: {fileID: 1150839596}
   - 136: {fileID: 1150839595}
   - 114: {fileID: 1150839594}
   - 114: {fileID: 1150839600}
+  - 33: {fileID: 1150839598}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -12825,12 +12982,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1177486348}
-  - 33: {fileID: 1177486347}
   - 23: {fileID: 1177486346}
   - 54: {fileID: 1177486345}
   - 136: {fileID: 1177486344}
   - 114: {fileID: 1177486343}
   - 114: {fileID: 1177486349}
+  - 33: {fileID: 1177486347}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -13044,7 +13201,6 @@ Transform:
   - {fileID: 1682584262}
   - {fileID: 547486922}
   - {fileID: 2142743167}
-  - {fileID: 1784559397}
   - {fileID: 671642594}
   - {fileID: 1963990833}
   - {fileID: 1099510337}
@@ -13052,6 +13208,7 @@ Transform:
   - {fileID: 1238799588}
   - {fileID: 829504236}
   - {fileID: 1609426402}
+  - {fileID: 1784559397}
   - {fileID: 1424751816}
   - {fileID: 1032426962}
   - {fileID: 405395209}
@@ -13113,12 +13270,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1238799588}
-  - 33: {fileID: 1238799587}
   - 23: {fileID: 1238799586}
   - 54: {fileID: 1238799585}
   - 136: {fileID: 1238799584}
   - 114: {fileID: 1238799583}
   - 114: {fileID: 1238799589}
+  - 33: {fileID: 1238799587}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -13310,12 +13467,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1260465539}
-  - 33: {fileID: 1260465538}
   - 23: {fileID: 1260465537}
   - 54: {fileID: 1260465536}
   - 136: {fileID: 1260465535}
   - 114: {fileID: 1260465534}
   - 114: {fileID: 1260465540}
+  - 33: {fileID: 1260465538}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -13839,12 +13996,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1369298757}
-  - 33: {fileID: 1369298756}
   - 23: {fileID: 1369298755}
   - 54: {fileID: 1369298754}
   - 136: {fileID: 1369298753}
   - 114: {fileID: 1369298752}
   - 114: {fileID: 1369298758}
+  - 33: {fileID: 1369298756}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -13996,12 +14153,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1411151420}
-  - 33: {fileID: 1411151419}
   - 23: {fileID: 1411151418}
   - 54: {fileID: 1411151417}
   - 136: {fileID: 1411151416}
   - 114: {fileID: 1411151415}
   - 114: {fileID: 1411151421}
+  - 33: {fileID: 1411151419}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -14105,6 +14262,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1411778700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+  m_PrefabInternal: {fileID: 1587072027}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1411778701}
+  - 33: {fileID: 1411778704}
+  - 23: {fileID: 1411778703}
+  - 95: {fileID: 1411778702}
+  m_Layer: 0
+  m_Name: ship
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1411778701
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+  m_PrefabInternal: {fileID: 1587072027}
+  m_GameObject: {fileID: 1411778700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1110992769}
+--- !u!95 &1411778702
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 3b581b8934fcd9b4eaf3cf077adae817,
+    type: 3}
+  m_PrefabInternal: {fileID: 1587072027}
+  m_GameObject: {fileID: 1411778700}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
+--- !u!23 &1411778703
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 3b581b8934fcd9b4eaf3cf077adae817,
+    type: 3}
+  m_PrefabInternal: {fileID: 1587072027}
+  m_GameObject: {fileID: 1411778700}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 06fb6e28ff3307d468cbeedf4bdebe92, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!33 &1411778704
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 3b581b8934fcd9b4eaf3cf077adae817,
+    type: 3}
+  m_PrefabInternal: {fileID: 1587072027}
+  m_GameObject: {fileID: 1411778700}
+  m_Mesh: {fileID: 4300000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
 --- !u!1001 &1412941920
 Prefab:
   m_ObjectHideFlags: 0
@@ -14259,12 +14490,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1424751816}
-  - 33: {fileID: 1424751815}
   - 23: {fileID: 1424751814}
   - 54: {fileID: 1424751813}
   - 136: {fileID: 1424751812}
   - 114: {fileID: 1424751811}
   - 114: {fileID: 1424751817}
+  - 33: {fileID: 1424751815}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -14376,12 +14607,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1426416237}
-  - 33: {fileID: 1426416236}
   - 23: {fileID: 1426416235}
   - 54: {fileID: 1426416234}
   - 136: {fileID: 1426416233}
   - 114: {fileID: 1426416232}
   - 114: {fileID: 1426416238}
+  - 33: {fileID: 1426416236}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -17084,6 +17315,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 159168577}
   m_GameObject: {fileID: 1579489968}
   m_Mesh: {fileID: 4300000, guid: e0c995137f49c3948b189dbe0681fb68, type: 3}
+--- !u!1001 &1587072027
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1110992769}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+  m_RootGameObject: {fileID: 1411778700}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1609426396
 GameObject:
   m_ObjectHideFlags: 0
@@ -17092,12 +17363,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1609426402}
-  - 33: {fileID: 1609426401}
   - 23: {fileID: 1609426400}
   - 54: {fileID: 1609426399}
   - 136: {fileID: 1609426398}
   - 114: {fileID: 1609426397}
   - 114: {fileID: 1609426403}
+  - 33: {fileID: 1609426401}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -17355,12 +17626,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1682584262}
-  - 33: {fileID: 1682584261}
   - 23: {fileID: 1682584260}
   - 54: {fileID: 1682584258}
   - 136: {fileID: 1682584257}
   - 114: {fileID: 1682584259}
   - 114: {fileID: 1682584263}
+  - 33: {fileID: 1682584261}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -18724,12 +18995,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1743800821}
-  - 33: {fileID: 1743800820}
   - 23: {fileID: 1743800819}
   - 54: {fileID: 1743800818}
   - 136: {fileID: 1743800817}
   - 114: {fileID: 1743800816}
   - 114: {fileID: 1743800822}
+  - 33: {fileID: 1743800820}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -18841,12 +19112,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1748991337}
-  - 33: {fileID: 1748991336}
   - 23: {fileID: 1748991335}
   - 54: {fileID: 1748991334}
   - 136: {fileID: 1748991333}
   - 114: {fileID: 1748991332}
   - 114: {fileID: 1748991338}
+  - 33: {fileID: 1748991336}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -18994,16 +19265,16 @@ Prefab:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-  m_PrefabInternal: {fileID: 325641197}
+  m_PrefabInternal: {fileID: 508280753}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1784559397}
-  - 33: {fileID: 1784559396}
   - 23: {fileID: 1784559395}
   - 54: {fileID: 1784559393}
   - 136: {fileID: 1784559392}
   - 114: {fileID: 1784559394}
   - 114: {fileID: 1784559398}
+  - 33: {fileID: 1784559396}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -19016,7 +19287,7 @@ CapsuleCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 13600000, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
-  m_PrefabInternal: {fileID: 325641197}
+  m_PrefabInternal: {fileID: 508280753}
   m_GameObject: {fileID: 1784559391}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -19030,7 +19301,7 @@ Rigidbody:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 5400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
-  m_PrefabInternal: {fileID: 325641197}
+  m_PrefabInternal: {fileID: 508280753}
   m_GameObject: {fileID: 1784559391}
   serializedVersion: 2
   m_Mass: .100000001
@@ -19046,7 +19317,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
-  m_PrefabInternal: {fileID: 325641197}
+  m_PrefabInternal: {fileID: 508280753}
   m_GameObject: {fileID: 1784559391}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -19059,7 +19330,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300000, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
-  m_PrefabInternal: {fileID: 325641197}
+  m_PrefabInternal: {fileID: 508280753}
   m_GameObject: {fileID: 1784559391}
   m_Enabled: 1
   m_CastShadows: 1
@@ -19081,14 +19352,14 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300000, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
-  m_PrefabInternal: {fileID: 325641197}
+  m_PrefabInternal: {fileID: 508280753}
   m_GameObject: {fileID: 1784559391}
   m_Mesh: {fileID: 4300000, guid: 6c287162b022ca44cab78450e3778079, type: 3}
 --- !u!4 &1784559397
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-  m_PrefabInternal: {fileID: 325641197}
+  m_PrefabInternal: {fileID: 508280753}
   m_GameObject: {fileID: 1784559391}
   m_LocalRotation: {x: -.678365827, y: -.199549168, z: -.199549243, w: .678365707}
   m_LocalPosition: {x: 3.74270296, y: 0, z: 9.98518658}
@@ -19100,7 +19371,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
-  m_PrefabInternal: {fileID: 325641197}
+  m_PrefabInternal: {fileID: 508280753}
   m_GameObject: {fileID: 1784559391}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -19195,12 +19466,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1852401052}
-  - 33: {fileID: 1852401051}
   - 23: {fileID: 1852401050}
   - 54: {fileID: 1852401049}
   - 136: {fileID: 1852401048}
   - 114: {fileID: 1852401053}
   - 114: {fileID: 1852401054}
+  - 33: {fileID: 1852401051}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -19352,12 +19623,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1881074299}
-  - 33: {fileID: 1881074298}
   - 23: {fileID: 1881074297}
   - 54: {fileID: 1881074296}
   - 136: {fileID: 1881074295}
   - 114: {fileID: 1881074294}
   - 114: {fileID: 1881074300}
+  - 33: {fileID: 1881074298}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -19676,12 +19947,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1941934060}
-  - 33: {fileID: 1941934059}
   - 23: {fileID: 1941934058}
   - 54: {fileID: 1941934057}
   - 136: {fileID: 1941934056}
   - 114: {fileID: 1941934055}
   - 114: {fileID: 1941934061}
+  - 33: {fileID: 1941934059}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -19873,12 +20144,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1963990833}
-  - 33: {fileID: 1963990832}
   - 23: {fileID: 1963990831}
   - 54: {fileID: 1963990830}
   - 136: {fileID: 1963990829}
   - 114: {fileID: 1963990828}
   - 114: {fileID: 1963990834}
+  - 33: {fileID: 1963990832}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -20030,12 +20301,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1981148846}
-  - 33: {fileID: 1981148845}
   - 23: {fileID: 1981148844}
   - 54: {fileID: 1981148842}
   - 136: {fileID: 1981148847}
   - 114: {fileID: 1981148843}
   - 114: {fileID: 1981148848}
+  - 33: {fileID: 1981148845}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -20147,12 +20418,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1986438690}
-  - 33: {fileID: 1986438689}
   - 23: {fileID: 1986438688}
   - 54: {fileID: 1986438687}
   - 136: {fileID: 1986438686}
   - 114: {fileID: 1986438685}
   - 114: {fileID: 1986438691}
+  - 33: {fileID: 1986438689}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -20264,12 +20535,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1998660145}
-  - 33: {fileID: 1998660144}
   - 23: {fileID: 1998660143}
   - 54: {fileID: 1998660142}
   - 136: {fileID: 1998660141}
   - 114: {fileID: 1998660146}
   - 114: {fileID: 1998660147}
+  - 33: {fileID: 1998660144}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -21491,12 +21762,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2072209584}
-  - 33: {fileID: 2072209583}
   - 23: {fileID: 2072209582}
   - 54: {fileID: 2072209581}
   - 136: {fileID: 2072209580}
   - 114: {fileID: 2072209579}
   - 114: {fileID: 2072209585}
+  - 33: {fileID: 2072209583}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -22710,6 +22981,110 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 279385588}
+--- !u!1 &2134783570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+  m_PrefabInternal: {fileID: 932175563}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2134783574}
+  - 23: {fileID: 2134783572}
+  - 136: {fileID: 2134783573}
+  - 54: {fileID: 2134783571}
+  - 114: {fileID: 2134783575}
+  - 33: {fileID: 2134783576}
+  m_Layer: 0
+  m_Name: lolly
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &2134783571
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: cb7436dc31eda8f4895ff7c708600465,
+    type: 2}
+  m_PrefabInternal: {fileID: 932175563}
+  m_GameObject: {fileID: 2134783570}
+  serializedVersion: 2
+  m_Mass: .300000012
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!23 &2134783572
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: cb7436dc31eda8f4895ff7c708600465,
+    type: 2}
+  m_PrefabInternal: {fileID: 932175563}
+  m_GameObject: {fileID: 2134783570}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 6c49bfb8330c22041847fe7a34a2f60c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!136 &2134783573
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13600000, guid: cb7436dc31eda8f4895ff7c708600465,
+    type: 2}
+  m_PrefabInternal: {fileID: 932175563}
+  m_GameObject: {fileID: 2134783570}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: .330000013
+  m_Height: 2.58999991
+  m_Direction: 0
+  m_Center: {x: -.75, y: 0, z: 0}
+--- !u!4 &2134783574
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+  m_PrefabInternal: {fileID: 932175563}
+  m_GameObject: {fileID: 2134783570}
+  m_LocalRotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+  m_LocalPosition: {x: 6.32542181, y: 0, z: 7.04767132}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &2134783575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: cb7436dc31eda8f4895ff7c708600465,
+    type: 2}
+  m_PrefabInternal: {fileID: 932175563}
+  m_GameObject: {fileID: 2134783570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699ce5569c1120749af1d7f3d0cdf816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: 15
+--- !u!33 &2134783576
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: cb7436dc31eda8f4895ff7c708600465,
+    type: 2}
+  m_PrefabInternal: {fileID: 932175563}
+  m_GameObject: {fileID: 2134783570}
+  m_Mesh: {fileID: 4300000, guid: c8636e62e301e2841b78c30bf62eed86, type: 3}
 --- !u!1 &2137267115
 GameObject:
   m_ObjectHideFlags: 0
@@ -22718,12 +23093,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2137267121}
-  - 33: {fileID: 2137267120}
   - 23: {fileID: 2137267119}
   - 54: {fileID: 2137267118}
   - 136: {fileID: 2137267117}
   - 114: {fileID: 2137267116}
   - 114: {fileID: 2137267122}
+  - 33: {fileID: 2137267120}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -22835,12 +23210,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2142743167}
-  - 33: {fileID: 2142743166}
   - 23: {fileID: 2142743165}
   - 54: {fileID: 2142743164}
   - 136: {fileID: 2142743163}
   - 114: {fileID: 2142743168}
   - 114: {fileID: 2142743169}
+  - 33: {fileID: 2142743166}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
