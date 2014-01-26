@@ -31,6 +31,8 @@ public class PlayerMove : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		float _torque = torque + sticky.GetPower();
+		
 
 		//move
 		if (Input.GetKey(KeyCode.W)){
@@ -60,10 +62,10 @@ public class PlayerMove : MonoBehaviour {
 
 		//turn
 		if (Input.GetKey(KeyCode.A)){
-			rigidbody.AddTorque(torque * -transform.up);
+			rigidbody.AddTorque(_torque * -transform.up);
 		}
 		else if (Input.GetKey(KeyCode.D)){
-			rigidbody.AddTorque(torque * transform.up);
+			rigidbody.AddTorque(_torque * transform.up);
 		}
 		else{
 			rigidbody.AddTorque(-rotationSlowdown * rigidbody.angularVelocity);

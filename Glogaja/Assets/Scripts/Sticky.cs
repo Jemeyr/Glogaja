@@ -45,20 +45,18 @@ public class Sticky : MonoBehaviour {
 
 		Sticky otherSticky = part.GetComponent<Sticky>();
 
-		//add to tree if sticky
 
-			Debug.Log("adding " + part.transform.name + " to " + transform.name);
-			//remove the trigger
-			part.collider.isTrigger = false;
+		//remove the trigger
+		part.collider.isTrigger = false;
 
-			//add fixed joint to make them move together
-			FixedJoint joint = transform.gameObject.AddComponent<FixedJoint>();
-			joint.connectedBody = part.rigidbody;
+		//add fixed joint to make them move together
+		FixedJoint joint = transform.gameObject.AddComponent<FixedJoint>();
+		joint.connectedBody = part.rigidbody;
 
-			otherSticky = part.AddComponent<Sticky>();
+		otherSticky = part.AddComponent<Sticky>();
 
-			//add to tree
-			children.Add(otherSticky,joint);
+		//add to tree
+		children.Add(otherSticky,joint);
 		 	
 
 

@@ -4,11 +4,12 @@ using System.Collections;
 public class CameraFollow : MonoBehaviour {
 
 	public Transform target;
+	public float distance = 10.0f;
 	
 	// Update is called once per frame
 	void Update () {
 
-		transform.position = target.position + Vector3.up * 10.0f;
+		transform.position = target.position + Vector3.up * distance;
 		transform.rotation = Quaternion.LookRotation(target.transform.position - transform.position);
 
 	}
