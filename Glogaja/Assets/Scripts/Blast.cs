@@ -2,9 +2,11 @@
 using System.Collections;
 
 public class Blast : Effect {
-	public double	blastPeriod = 0.5;
-	private Timer	blastTimer;
-	private bool	canBlast = true;
+	public GameObject	shot;
+	public double		blastPeriod = 0.5,
+						shotSpeed = 20;
+	private Timer		blastTimer;
+	private bool		canBlast = true;
 
 	public override void Run ()
 	{
@@ -12,10 +14,13 @@ public class Blast : Effect {
 
 			if (Input.GetKey (KeyCode.Return)) {
 
-					Debug.Log ("Blasting!");
+				var newShot = (GameObject)Instantiate(shot);
+				newShot.transform.position = gameObject.transform.position;
+				newShot.rigidbody.velocity = gameObject.transform.forward * (float)shotSpeed;
+				Physics.IgnoreCollision(newShot.collider, gameObject.collider);
 
-					canBlast = false;
-					blastTimer = new Timer (blastPeriod);
+				canBlast = false;
+				blastTimer = new Timer (blastPeriod);
 			}
 
 		} else {
