@@ -7,6 +7,8 @@ public class Boost : Effect {
 
 	private ParticleSystem emitter;
 
+	public Rigidbody body = null;
+
 	
 	public void Awake(){
 		emitter = GetComponentInChildren<ParticleSystem>();	
@@ -19,13 +21,13 @@ public class Boost : Effect {
 			emitter.startSpeed = 5;
 			emitter.enableEmission = true;
 
-			rigidbody.AddForce(power * transform.forward);
+			body.AddForceAtPosition(power * transform.forward, transform.position);
 		}
 		else if (Input.GetKey(KeyCode.S)){
 			emitter.startSpeed = -5;
 			emitter.enableEmission = true;
 
-			rigidbody.AddForce(power * -transform.forward);
+			body.AddForceAtPosition(power * -transform.forward, transform.position);
 		}
 		else{
 			emitter.enableEmission = false;
