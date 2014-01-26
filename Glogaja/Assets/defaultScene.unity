@@ -168,6 +168,7 @@ GameObject:
   - 136: {fileID: 284207942}
   - 114: {fileID: 284207941}
   - 54: {fileID: 284207943}
+  - 114: {fileID: 284207944}
   m_Layer: 0
   m_Name: booster
   m_TagString: Untagged
@@ -258,6 +259,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &284207944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f8c97e1955f8cf04495bfd3ed2fda496,
+    type: 2}
+  m_PrefabInternal: {fileID: 1549489506}
+  m_GameObject: {fileID: 284207937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27cb39b427d48144ebe551b4a996d6b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: 1
 --- !u!1001 &325641197
 Prefab:
   m_ObjectHideFlags: 0
@@ -595,6 +609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fafdad67c6e38c544b0127d007f90d2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  positionSlowdown: .899999976
+  rotationSlowdown: .899999976
 --- !u!54 &1110992771
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -5,14 +5,22 @@ using System.Collections.Specialized;
 
 public class Sticky : MonoBehaviour {
 	Dictionary<Sticky,FixedJoint> children = new Dictionary<Sticky, FixedJoint>();
+	Boost booster;
+
 
 	public void Run(){
 		foreach(Sticky child in children.Keys){
 			child.Run();
-
 		}
 
-		//TODO: add some component to do shooting or boosting and perform that
+		if(booster != null){
+			booster.Run();
+		}
+
+	}
+
+	void Start(){
+		booster = GetComponent<Boost>();
 	}
 
 	void OnTriggerEnter(Collider other){
