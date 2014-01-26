@@ -1,12 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Hittable : MonoBehaviour {
+public abstract class Hittable : MonoBehaviour {
 	
 	public bool destroyOnHit = true;
 	
-	public void hit() {
-
-		Debug.Log ("Hit!");
-	}
+	public abstract void hit();
 }
