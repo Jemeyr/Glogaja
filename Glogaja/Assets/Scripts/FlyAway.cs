@@ -3,7 +3,7 @@ using System.Collections;
 
 public class FlyAway : MonoBehaviour {
 
-	public float speed = 0.05f;
+	public float speed = 5.0f;
 
 	private Vector3 direction = Vector3.zero;
 
@@ -16,7 +16,7 @@ public class FlyAway : MonoBehaviour {
 
 
 		if(rigidbody != null){
-			rigidbody.AddForce(direction * 100 * speed);
+			rigidbody.AddForce(direction * speed);
 		}
 
 	}
