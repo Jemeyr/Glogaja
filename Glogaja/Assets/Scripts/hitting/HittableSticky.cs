@@ -5,7 +5,9 @@ public class HittableSticky : Hittable {
 
 	public override void hit (GameObject hitter)
 	{
-		var sticky = GetComponent<Sticky> ();
+		var sticky = gameObject.GetComponent<Sticky> ();
+
+		Debug.Log ("Hit a hittable sticky");
 
 		if (sticky == null)
 						return;
