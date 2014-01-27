@@ -21,4 +21,9 @@ public class Timer {
 	public bool hasFired {
 		get { return elapsed >= period; }
 	}
+
+	public void restart() {
+
+			elapsed = 0;
+	}
 }
