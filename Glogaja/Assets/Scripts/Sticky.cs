@@ -121,5 +121,9 @@ public class Sticky : MonoBehaviour {
 		}
 	}
 
+	public void Unstick() {
 
+		// TODO This
+		Debug.Log ("Unsticking, yo");
+	}
 }
