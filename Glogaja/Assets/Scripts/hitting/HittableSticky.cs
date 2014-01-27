@@ -7,8 +7,6 @@ public class HittableSticky : Hittable {
 	{
 		var sticky = gameObject.GetComponent<Sticky> ();
 
-		Debug.Log ("Hit a hittable sticky");
-
 		if (sticky == null)
 						return;
 
