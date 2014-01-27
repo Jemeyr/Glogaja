@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class Blast : Effect {
-	public GameObject	shot;
 	public double		blastPeriod = 0.5,
 						shotSpeed = 20;
 	private Timer		blastTimer;
@@ -14,10 +13,10 @@ public class Blast : Effect {
 
 			if (Input.GetKey (KeyCode.Return)) {
 
-				var newShot = (GameObject)Instantiate(shot);
-				newShot.transform.position = gameObject.transform.position;
-				newShot.rigidbody.velocity = gameObject.transform.forward * (float)shotSpeed;
-				Physics.IgnoreCollision(newShot.collider, gameObject.collider);
+				var shot = (GameObject)Instantiate(Resources.Load("Prefabs/shot"));
+				shot.transform.position = gameObject.transform.position;
+				shot.rigidbody.velocity = gameObject.transform.forward * (float)shotSpeed;
+				shot.layer = gameObject.layer;
 
 				canBlast = false;
 				blastTimer = new Timer (blastPeriod);

@@ -2824,6 +2824,8 @@ GameObject:
   - 136: {fileID: 278445191}
   - 23: {fileID: 278445190}
   - 114: {fileID: 278445189}
+  - 54: {fileID: 278445195}
+  - 114: {fileID: 278445194}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -2899,6 +2901,34 @@ Transform:
   m_LocalScale: {x: 1, y: .5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &278445194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: da229c364a80ce64395bb35155313307,
+    type: 2}
+  m_PrefabInternal: {fileID: 1221972028}
+  m_GameObject: {fileID: 278445188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe71dc69dd216546b76801ed7fd582d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &278445195
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: da229c364a80ce64395bb35155313307,
+    type: 2}
+  m_PrefabInternal: {fileID: 1221972028}
+  m_GameObject: {fileID: 278445188}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &279385581
 GameObject:
   m_ObjectHideFlags: 0
@@ -11487,7 +11517,7 @@ MeshCollider:
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
   m_Convex: 0
-  m_Mesh: {fileID: 4300000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+  m_Mesh: {fileID: 4300000, guid: e0c995137f49c3948b189dbe0681fb68, type: 3}
 --- !u!114 &1110992773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14335,7 +14365,7 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 1587072027}
   m_GameObject: {fileID: 1411778700}
-  m_Mesh: {fileID: 4300000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+  m_Mesh: {fileID: 4300000, guid: e0c995137f49c3948b189dbe0681fb68, type: 3}
 --- !u!1001 &1412941920
 Prefab:
   m_ObjectHideFlags: 0
@@ -15984,6 +16014,8 @@ GameObject:
   - 136: {fileID: 1522705858}
   - 23: {fileID: 1522705857}
   - 114: {fileID: 1522705856}
+  - 54: {fileID: 1522705862}
+  - 114: {fileID: 1522705861}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -16059,6 +16091,34 @@ Transform:
   m_LocalScale: {x: 1, y: .5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1522705861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: da229c364a80ce64395bb35155313307,
+    type: 2}
+  m_PrefabInternal: {fileID: 1917262577}
+  m_GameObject: {fileID: 1522705855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe71dc69dd216546b76801ed7fd582d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1522705862
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: da229c364a80ce64395bb35155313307,
+    type: 2}
+  m_PrefabInternal: {fileID: 1917262577}
+  m_GameObject: {fileID: 1522705855}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1530088914
 Prefab:
   m_ObjectHideFlags: 0
@@ -19864,6 +19924,8 @@ GameObject:
   - 136: {fileID: 1938077471}
   - 23: {fileID: 1938077470}
   - 114: {fileID: 1938077469}
+  - 54: {fileID: 1938077475}
+  - 114: {fileID: 1938077474}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -19939,6 +20001,34 @@ Transform:
   m_LocalScale: {x: 1, y: .5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1938077474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: da229c364a80ce64395bb35155313307,
+    type: 2}
+  m_PrefabInternal: {fileID: 1047716784}
+  m_GameObject: {fileID: 1938077468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe71dc69dd216546b76801ed7fd582d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1938077475
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: da229c364a80ce64395bb35155313307,
+    type: 2}
+  m_PrefabInternal: {fileID: 1047716784}
+  m_GameObject: {fileID: 1938077468}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1941934054
 GameObject:
   m_ObjectHideFlags: 0

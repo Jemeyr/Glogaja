@@ -19,20 +19,17 @@ public class ShootingEnemy : MonoBehaviour {
 
 		if (shotTimer.hasFired) {
 
-			Debug.Log("Firing!");
-
 			var player = GameObject.Find("ship");
 			if (player) {
-
-				Debug.Log("Player found!");
 
 				var direction = (player.transform.position - transform.position).normalized;
 
 				var shot = (GameObject)Instantiate(Resources.Load("Prefabs/shot"));
 				shot.transform.position = transform.position;
 				shot.rigidbody.velocity = direction * 20;
+				shot.layer = gameObject.layer;
 
-				Physics.IgnoreCollision(gameObject.collider, shot.collider);
+				Debug.Log(shot.layer + ", " + gameObject.layer + ", " + Physics.GetIgnoreLayerCollision(shot.layer, gameObject.layer));
 			}
 
 			shotTimer.restart();
