@@ -87,8 +87,8 @@ GameObject:
   - 136: {fileID: 1916968}
   - 114: {fileID: 1916967}
   - 33: {fileID: 1916971}
-  - 114: {fileID: 1916974}
   - 114: {fileID: 1916973}
+  - 114: {fileID: 1916974}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -183,20 +183,6 @@ Transform:
 --- !u!114 &1916973
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1946789414}
-  m_GameObject: {fileID: 1916966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &1916974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 1946789414}
@@ -215,9 +201,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1916966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
 --- !u!1 &15979342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2931,8 +2919,8 @@ GameObject:
   - 136: {fileID: 280495858}
   - 114: {fileID: 280495857}
   - 33: {fileID: 280495861}
-  - 114: {fileID: 280495864}
   - 114: {fileID: 280495863}
+  - 114: {fileID: 280495864}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -3027,20 +3015,6 @@ Transform:
 --- !u!114 &280495863
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1504638151}
-  m_GameObject: {fileID: 280495856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &280495864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 1504638151}
@@ -3059,9 +3033,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 280495856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
 --- !u!1 &284207937
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,8 +3302,8 @@ GameObject:
   - 136: {fileID: 321674294}
   - 114: {fileID: 321674293}
   - 33: {fileID: 321674297}
-  - 114: {fileID: 321674300}
   - 114: {fileID: 321674299}
+  - 114: {fileID: 321674300}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -3422,20 +3398,6 @@ Transform:
 --- !u!114 &321674299
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1845611504}
-  m_GameObject: {fileID: 321674292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &321674300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 1845611504}
@@ -3454,9 +3416,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 321674292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
 --- !u!1001 &341350791
 Prefab:
   m_ObjectHideFlags: 0
@@ -3510,8 +3474,8 @@ GameObject:
   - 136: {fileID: 364128832}
   - 114: {fileID: 364128837}
   - 33: {fileID: 364128835}
-  - 114: {fileID: 364128839}
   - 114: {fileID: 364128838}
+  - 114: {fileID: 364128839}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -3606,20 +3570,6 @@ MonoBehaviour:
 --- !u!114 &364128838
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1633012085}
-  m_GameObject: {fileID: 364128831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &364128839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 1633012085}
@@ -3638,9 +3588,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 364128831}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
 --- !u!1 &396378911
 GameObject:
   m_ObjectHideFlags: 0
@@ -4764,8 +4716,8 @@ GameObject:
   - 136: {fileID: 402580999}
   - 114: {fileID: 402580998}
   - 33: {fileID: 402581002}
-  - 114: {fileID: 402581005}
   - 114: {fileID: 402581004}
+  - 114: {fileID: 402581005}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -4860,20 +4812,6 @@ Transform:
 --- !u!114 &402581004
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1268264914}
-  m_GameObject: {fileID: 402580997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &402581005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 1268264914}
@@ -4892,9 +4830,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 402580997}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
 --- !u!1001 &404385020
 Prefab:
   m_ObjectHideFlags: 0
@@ -4952,8 +4892,8 @@ GameObject:
   - 136: {fileID: 405395205}
   - 114: {fileID: 405395204}
   - 33: {fileID: 405395208}
-  - 114: {fileID: 405395211}
   - 114: {fileID: 405395210}
+  - 114: {fileID: 405395211}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -5048,20 +4988,6 @@ Transform:
 --- !u!114 &405395210
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 624025130}
-  m_GameObject: {fileID: 405395203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &405395211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 624025130}
@@ -5080,9 +5006,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 405395203}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
 --- !u!1001 &410794897
 Prefab:
   m_ObjectHideFlags: 0
@@ -5216,8 +5144,8 @@ GameObject:
   - 136: {fileID: 456965508}
   - 114: {fileID: 456965507}
   - 33: {fileID: 456965511}
-  - 114: {fileID: 456965514}
   - 114: {fileID: 456965513}
+  - 114: {fileID: 456965514}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -5312,20 +5240,6 @@ Transform:
 --- !u!114 &456965513
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1412941920}
-  m_GameObject: {fileID: 456965506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &456965514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 1412941920}
@@ -5344,9 +5258,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 456965506}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
 --- !u!1001 &470373347
 Prefab:
   m_ObjectHideFlags: 0
@@ -5480,8 +5396,8 @@ GameObject:
   - 136: {fileID: 501578202}
   - 114: {fileID: 501578201}
   - 33: {fileID: 501578205}
-  - 114: {fileID: 501578208}
   - 114: {fileID: 501578207}
+  - 114: {fileID: 501578208}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -5576,20 +5492,6 @@ Transform:
 --- !u!114 &501578207
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1287948887}
-  m_GameObject: {fileID: 501578200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &501578208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 1287948887}
@@ -5608,9 +5510,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 501578200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
 --- !u!1001 &508280753
 Prefab:
   m_ObjectHideFlags: 0
@@ -5664,8 +5568,8 @@ GameObject:
   - 136: {fileID: 547486918}
   - 114: {fileID: 547486917}
   - 33: {fileID: 547486921}
-  - 114: {fileID: 547486924}
   - 114: {fileID: 547486923}
+  - 114: {fileID: 547486924}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -5760,20 +5664,6 @@ Transform:
 --- !u!114 &547486923
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 242400546}
-  m_GameObject: {fileID: 547486916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &547486924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 242400546}
@@ -5792,9 +5682,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 547486916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
 --- !u!1001 &561615367
 Prefab:
   m_ObjectHideFlags: 0
@@ -6057,7 +5949,7 @@ GameObject:
   - 4: {fileID: 619844128}
   - 198: {fileID: 619844127}
   - 199: {fileID: 619844126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: engineEmitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8032,7 +7924,8 @@ GameObject:
   - 114: {fileID: 807567552}
   - 54: {fileID: 807567553}
   - 114: {fileID: 807567554}
-  m_Layer: 0
+  - 114: {fileID: 807567555}
+  m_Layer: 9
   m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8051,7 +7944,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 224d331defa9857498e72cc38bb34588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyOnHit: 1
 --- !u!136 &807567548
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8146,6 +8038,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &807567555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: da229c364a80ce64395bb35155313307,
+    type: 2}
+  m_PrefabInternal: {fileID: 994766198}
+  m_GameObject: {fileID: 807567546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe71dc69dd216546b76801ed7fd582d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &819979801
@@ -8815,6 +8719,7 @@ GameObject:
   - 136: {fileID: 991840036}
   - 54: {fileID: 991840034}
   - 114: {fileID: 991840033}
+  - 114: {fileID: 991840035}
   m_Layer: 0
   m_Name: booster
   m_TagString: Untagged
@@ -8864,6 +8769,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &991840035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f8c97e1955f8cf04495bfd3ed2fda496,
+    type: 2}
+  m_PrefabInternal: {fileID: 163256417}
+  m_GameObject: {fileID: 991840031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &991840036
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9097,6 +9014,7 @@ GameObject:
   - 136: {fileID: 1036540888}
   - 54: {fileID: 1036540886}
   - 114: {fileID: 1036540885}
+  - 114: {fileID: 1036540887}
   m_Layer: 0
   m_Name: booster
   m_TagString: Untagged
@@ -9134,6 +9052,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1036540887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f8c97e1955f8cf04495bfd3ed2fda496,
+    type: 2}
+  m_PrefabInternal: {fileID: 1732987322}
+  m_GameObject: {fileID: 1036540884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &1036540888
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9507,7 +9437,7 @@ GameObject:
   - 64: {fileID: 1110992772}
   - 114: {fileID: 1110992773}
   - 114: {fileID: 1110992774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9570,7 +9500,7 @@ MeshCollider:
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
   m_Convex: 0
-  m_Mesh: {fileID: 4300000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+  m_Mesh: {fileID: 4300000, guid: e0c995137f49c3948b189dbe0681fb68, type: 3}
 --- !u!114 &1110992773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11082,6 +11012,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: -2.09999998e-05
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 874497905358e484ca16ff8723853c2f, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 874497905358e484ca16ff8723853c2f, type: 2}
   m_RootGameObject: {fileID: 1461875995}
@@ -11787,6 +11721,7 @@ GameObject:
   - 136: {fileID: 1273401957}
   - 54: {fileID: 1273401955}
   - 114: {fileID: 1273401954}
+  - 114: {fileID: 1273401956}
   m_Layer: 0
   m_Name: booster
   m_TagString: Untagged
@@ -11824,6 +11759,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1273401956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f8c97e1955f8cf04495bfd3ed2fda496,
+    type: 2}
+  m_PrefabInternal: {fileID: 1088192219}
+  m_GameObject: {fileID: 1273401953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &1273401957
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12093,6 +12040,7 @@ GameObject:
   - 136: {fileID: 1364896550}
   - 54: {fileID: 1364896548}
   - 114: {fileID: 1364896547}
+  - 114: {fileID: 1364896549}
   m_Layer: 0
   m_Name: booster
   m_TagString: Untagged
@@ -12142,6 +12090,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1364896549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f8c97e1955f8cf04495bfd3ed2fda496,
+    type: 2}
+  m_PrefabInternal: {fileID: 96854247}
+  m_GameObject: {fileID: 1364896545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &1364896550
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12501,7 +12461,7 @@ GameObject:
   - 33: {fileID: 1411778704}
   - 23: {fileID: 1411778703}
   - 95: {fileID: 1411778702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12563,7 +12523,7 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 1587072027}
   m_GameObject: {fileID: 1411778700}
-  m_Mesh: {fileID: 4300000, guid: 3b581b8934fcd9b4eaf3cf077adae817, type: 3}
+  m_Mesh: {fileID: 4300000, guid: e0c995137f49c3948b189dbe0681fb68, type: 3}
 --- !u!1001 &1412941920
 Prefab:
   m_ObjectHideFlags: 0
@@ -12878,7 +12838,7 @@ GameObject:
   - 4: {fileID: 1461875996}
   - 198: {fileID: 1461875998}
   - 199: {fileID: 1461875997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: engineEmitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14285,7 +14245,8 @@ GameObject:
   - 114: {fileID: 1623842327}
   - 54: {fileID: 1623842328}
   - 114: {fileID: 1623842329}
-  m_Layer: 0
+  - 114: {fileID: 1623842330}
+  m_Layer: 9
   m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14304,7 +14265,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 224d331defa9857498e72cc38bb34588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyOnHit: 1
 --- !u!136 &1623842323
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14399,6 +14359,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1623842330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: da229c364a80ce64395bb35155313307,
+    type: 2}
+  m_PrefabInternal: {fileID: 35096900}
+  m_GameObject: {fileID: 1623842321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe71dc69dd216546b76801ed7fd582d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1633012085
@@ -14690,7 +14662,8 @@ GameObject:
   - 114: {fileID: 1699045166}
   - 54: {fileID: 1699045167}
   - 114: {fileID: 1699045168}
-  m_Layer: 0
+  - 114: {fileID: 1699045169}
+  m_Layer: 9
   m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14709,7 +14682,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 224d331defa9857498e72cc38bb34588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyOnHit: 1
 --- !u!23 &1699045162
 Renderer:
   m_ObjectHideFlags: 0
@@ -14804,6 +14776,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1699045169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: da229c364a80ce64395bb35155313307,
+    type: 2}
+  m_PrefabInternal: {fileID: 1348720938}
+  m_GameObject: {fileID: 1699045160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe71dc69dd216546b76801ed7fd582d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1718400832
@@ -16829,6 +16813,7 @@ GameObject:
   - 136: {fileID: 1912219635}
   - 54: {fileID: 1912219639}
   - 114: {fileID: 1912219640}
+  - 114: {fileID: 1912219641}
   m_Layer: 0
   m_Name: blaster
   m_TagString: Untagged
@@ -16919,9 +16904,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71f7a1e3facd5f40b702f8a9b51281c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 100000, guid: 5f266fd45c1c70a46acabe5b30d14938, type: 2}
   blastPeriod: .5
   shotSpeed: 20
+--- !u!114 &1912219641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 67368f8f3767a4449b60e36d5be72eda,
+    type: 2}
+  m_PrefabInternal: {fileID: 1263556220}
+  m_GameObject: {fileID: 1912219634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1927239738
 Prefab:
   m_ObjectHideFlags: 0
@@ -17889,7 +17885,8 @@ GameObject:
   - 114: {fileID: 2073866475}
   - 54: {fileID: 2073866476}
   - 114: {fileID: 2073866477}
-  m_Layer: 0
+  - 114: {fileID: 2073866478}
+  m_Layer: 9
   m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17908,7 +17905,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 224d331defa9857498e72cc38bb34588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyOnHit: 1
 --- !u!136 &2073866471
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18005,6 +18001,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2073866478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: da229c364a80ce64395bb35155313307,
+    type: 2}
+  m_PrefabInternal: {fileID: 616034088}
+  m_GameObject: {fileID: 2073866469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe71dc69dd216546b76801ed7fd582d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2084023403
 GameObject:
   m_ObjectHideFlags: 0
@@ -18018,6 +18026,7 @@ GameObject:
   - 136: {fileID: 2084023406}
   - 54: {fileID: 2084023405}
   - 114: {fileID: 2084023404}
+  - 114: {fileID: 2084023410}
   m_Layer: 0
   m_Name: blaster
   m_TagString: Untagged
@@ -18037,7 +18046,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71f7a1e3facd5f40b702f8a9b51281c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 100000, guid: 5f266fd45c1c70a46acabe5b30d14938, type: 2}
   blastPeriod: .5
   shotSpeed: 20
 --- !u!54 &2084023405
@@ -18111,6 +18119,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &2084023410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 67368f8f3767a4449b60e36d5be72eda,
+    type: 2}
+  m_PrefabInternal: {fileID: 1576435654}
+  m_GameObject: {fileID: 2084023403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2123381638
 GameObject:
   m_ObjectHideFlags: 0
@@ -19366,8 +19386,8 @@ GameObject:
   - 136: {fileID: 2137267117}
   - 114: {fileID: 2137267116}
   - 33: {fileID: 2137267120}
-  - 114: {fileID: 2137267123}
   - 114: {fileID: 2137267122}
+  - 114: {fileID: 2137267123}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -19462,20 +19482,6 @@ Transform:
 --- !u!114 &2137267122
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1886032904}
-  m_GameObject: {fileID: 2137267115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &2137267123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 1886032904}
@@ -19494,9 +19500,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2137267115}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
 --- !u!1 &2142743162
 GameObject:
   m_ObjectHideFlags: 0
@@ -19510,8 +19518,8 @@ GameObject:
   - 136: {fileID: 2142743163}
   - 114: {fileID: 2142743168}
   - 33: {fileID: 2142743166}
-  - 114: {fileID: 2142743170}
   - 114: {fileID: 2142743169}
+  - 114: {fileID: 2142743170}
   m_Layer: 0
   m_Name: jellybean
   m_TagString: Untagged
@@ -19606,20 +19614,6 @@ MonoBehaviour:
 --- !u!114 &2142743169
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
-    type: 2}
-  m_PrefabInternal: {fileID: 252510254}
-  m_GameObject: {fileID: 2142743162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  spin: 500
---- !u!114 &2142743170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 978eb11b952ae1b4fb0d734a1136e6e2,
     type: 2}
   m_PrefabInternal: {fileID: 252510254}
@@ -19638,6 +19632,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2142743162}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Script: {fileID: 11500000, guid: 90815acc8c2843f47aecdf07a2ecbbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  spin: 500
