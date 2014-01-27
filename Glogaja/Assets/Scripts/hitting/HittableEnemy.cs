@@ -18,5 +18,7 @@ public class HittableEnemy : Hittable {
 			item.transform.position = transform.position;
 			item.rigidbody.velocity = velocity;
 		}
+
+		Destroy (gameObject);
 	}
 }

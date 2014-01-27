@@ -15,9 +15,6 @@ public class Hitter : MonoBehaviour
 		
 		hittable.hit(gameObject);
 		
-		if (hittable.destroyOnHit)
-			Destroy (hittable.gameObject);
-		
 		if (destroyOnHit)
 			Destroy (gameObject);
 	}
