@@ -7,7 +7,16 @@ public class Hitter : MonoBehaviour
 	
 	void OnCollisionEnter(Collision collision){
 
-		var other = collision.gameObject;
+		hit (collision.gameObject);
+	}
+
+	void OnTriggerEnter(Collider other) {
+
+		hit (other.gameObject);
+	}
+
+	private void hit(GameObject other) {
+
 		var hittable = other.GetComponent<Hittable> ();
 		
 		if (hittable == null)

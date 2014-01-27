@@ -53,7 +53,14 @@ public class Sticky : MonoBehaviour {
 
 
 		//remove the trigger
-		part.collider.isTrigger = false;
+		// TODO Bug Jer about why we're doing this, but for the time being, go eat dinner
+		// But, uh, the thing is, apprently when one object is child-ed to another, like we do below
+		// it won't receive collision events (http://answers.unity3d.com/questions/372886/rigidbody-collision-behaviour-in-parent-child-obje.html)
+		// Of course, to unstick things, we'd like to know which part was actually hit.
+		// While we can't get collision events, we *can* get the trigger enter ones.
+		// So, I mean, I don't know what the better solution is, but for the time being,
+		// since I haven't found a bug yet, I'm going to leave triggers as triggers.
+		//part.collider.isTrigger = false;
 
 		Rigidbody otherBody = part.transform.GetComponent<Rigidbody>();
 
@@ -114,7 +121,7 @@ public class Sticky : MonoBehaviour {
 
 		// Hm. If this sticky has a layer and the other doesn't, the other should inherit it.
 		// That means things the player sticks to should join the player layer.
-		// TODO Rest the layer if things become unstuck.
+		// TODO Reset the layer if things become unstuck.
 		if (gameObject.layer != 0 && otherSticky.gameObject.layer == 0) {
 
 			otherSticky.gameObject.layer = gameObject.layer;
