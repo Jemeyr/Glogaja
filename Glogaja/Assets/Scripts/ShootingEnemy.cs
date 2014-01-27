@@ -28,8 +28,6 @@ public class ShootingEnemy : MonoBehaviour {
 				shot.transform.position = transform.position;
 				shot.rigidbody.velocity = direction * 20;
 				shot.layer = gameObject.layer;
-
-				Debug.Log(shot.layer + ", " + gameObject.layer + ", " + Physics.GetIgnoreLayerCollision(shot.layer, gameObject.layer));
 			}
 
 			shotTimer.restart();

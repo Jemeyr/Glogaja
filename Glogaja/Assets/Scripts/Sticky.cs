@@ -112,6 +112,13 @@ public class Sticky : MonoBehaviour {
 			b.body = thisBody;
 		}
 
+		// Hm. If this sticky has a layer and the other doesn't, the other should inherit it.
+		// That means things the player sticks to should join the player layer.
+		// TODO Rest the layer if things become unstuck.
+		if (gameObject.layer != 0 && otherSticky.gameObject.layer == 0) {
+
+			otherSticky.gameObject.layer = gameObject.layer;
+		}
 	}
 
 
