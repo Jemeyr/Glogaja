@@ -5,6 +5,9 @@ using System.Collections.Specialized;
 
 public class Sticky : MonoBehaviour {
 
+	public float explodeForce = 15.0f;
+
+
 	public Dictionary<Sticky,MassComponent> children = new Dictionary<Sticky, MassComponent>();
 
 	Effect effect;
@@ -97,15 +100,18 @@ public class Sticky : MonoBehaviour {
 		//add a sticky to the new piece
 		otherSticky = part.AddComponent<Sticky>();
 
+
+		//get new parent part
+		Sticky toBeParent = GetNearest(part.transform.position, t.GetComponent<Sticky>());
+
+		
 		//add it into heirarchy so it is connected
-		part.transform.parent = transform;
+		part.transform.parent = toBeParent.transform;
 
 
-		//HACK HACK HACK HACK HACK HACK HACK HACK HACK HACK HACK HACK 
-		//This sticky script is always run on the ship level, so this isn't really a tree.
 		//add to tree
 		MassComponent mc = new MassComponent(otherMass, otherCoM);
-		children.Add(otherSticky,mc);
+		toBeParent.children.Add(otherSticky,mc);
 		 	
 
 		//if booster add the rigidbody for forces
@@ -124,15 +130,11 @@ public class Sticky : MonoBehaviour {
 	}
 
 	public void Unstick() {
-
-		// TODO This
-		Debug.Log ("Attempting to unstick " + transform.name);
+		//HACK HACK HACK HACK HACK HACK HACK HACK HACK HACK HACK HACK 
 
 
 		//go through all the children, undo the sticking, collect the masscomponents
 		List<MassComponent> detachedMasses = new List<MassComponent>();
-
-
 
 
 
@@ -148,21 +150,16 @@ public class Sticky : MonoBehaviour {
 			GameObject part = sticky.gameObject;
 
 
-
-			Debug.Log ("\tFirst unsticking " + part.transform.name);
-
-
-
-
-			//reset trigger
-			part.collider.isTrigger = true;
-
-
-			//remove it from the heirarchy
-			part.transform.parent = null;
-
-			//get its masscomponent from parent
+			//A lot of this doesn't apply to the toplevel ship entity
 			if(sticky.transform.parent != null){
+
+				//reset layer?
+				part.layer = 0;
+				
+				//reset trigger
+				part.AddComponent<BecomeTriggerAgain>();
+
+
 
 				Sticky parent = sticky.transform.parent.GetComponent<Sticky>();
 				MassComponent mc = parent.children[sticky];
@@ -172,33 +169,44 @@ public class Sticky : MonoBehaviour {
 
 				//add a rigidbody and give it the mass
 				Rigidbody partbody = part.AddComponent<Rigidbody>();
+
+				//Sometimes the physics fails the first try because this gets interrupted or something
 				partbody.mass = mc.mass;
-			}
+				partbody.centerOfMass = Vector3.zero;
+
+				partbody.useGravity = false;
+			
+				partbody.AddForce( partbody.position - this.transform.position * explodeForce); 
 
 
-			foreach (Transform child in sticky.transform){
-				Sticky s = child.GetComponent<Sticky>();
-				if(s != null){
-					Debug.Log ("\t\taddingchild");
+				
+				//remove it from the heirarchy
+				part.transform.parent = null;
+				
+				//add children
+				foreach (Sticky s in sticky.children.Keys){
+					toDetach.Enqueue(s);
+				}
+
+				//destroy
+				toDestroy.Add(sticky);
+
+			}else {
+
+				//just add children
+				foreach (Sticky s in sticky.children.Keys){
 					toDetach.Enqueue(s);
 				}
 			}
 
-			//destroy self
-			toDestroy.Add(sticky);
+
 		}
 
+		//kill the stickies
 		foreach(Sticky s in toDestroy){
-			if(s.gameObject.transform.parent != null){
-				Destroy (s);
-			}
-			else
-			{
-				Debug.Log ("HAH!");
-			}
-
-
+			Destroy (s);
 		}
+
 
 
 		//get toplevel rigidbody
@@ -232,9 +240,38 @@ public class Sticky : MonoBehaviour {
 
 		}
 
-
-
-
-
 	}
+
+	//get nearest sticky to the position giving, pass in the toplevel sticky you are checking from
+	private Sticky GetNearest(Vector3 inPos, Sticky sticky){
+		Sticky closest = null;
+		float minDist = float.MaxValue;
+
+		Queue<Sticky> toCheck = new Queue<Sticky>();
+		toCheck.Enqueue(sticky);
+		
+		//gross flat queue recursion.
+		while(toCheck.Count > 0){
+			
+			Sticky testing  = toCheck.Dequeue();
+			Vector3 testPos = testing.gameObject.transform.position;
+			
+			float testDist = Vector3.Distance(testPos,inPos);
+			
+			if(testDist < minDist){
+				minDist = testDist;
+				closest = testing;
+			}
+			
+			foreach(Sticky s in testing.children.Keys){
+				toCheck.Enqueue(s);
+			}
+		
+
+		}
+		return closest;
+	}
+
+
+
 }
