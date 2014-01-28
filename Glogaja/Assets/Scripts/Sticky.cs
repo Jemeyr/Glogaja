@@ -5,7 +5,7 @@ using System.Collections.Specialized;
 
 public class Sticky : MonoBehaviour {
 
-	Dictionary<Sticky,MassComponent> children = new Dictionary<Sticky, MassComponent>();
+	public Dictionary<Sticky,MassComponent> children = new Dictionary<Sticky, MassComponent>();
 
 	Effect effect;
 
@@ -52,15 +52,8 @@ public class Sticky : MonoBehaviour {
 		GameObject part = other.gameObject;
 
 
-		//remove the trigger
-		// TODO Bug Jer about why we're doing this, but for the time being, go eat dinner
-		// But, uh, the thing is, apprently when one object is child-ed to another, like we do below
-		// it won't receive collision events (http://answers.unity3d.com/questions/372886/rigidbody-collision-behaviour-in-parent-child-obje.html)
-		// Of course, to unstick things, we'd like to know which part was actually hit.
-		// While we can't get collision events, we *can* get the trigger enter ones.
-		// So, I mean, I don't know what the better solution is, but for the time being,
-		// since I haven't found a bug yet, I'm going to leave triggers as triggers.
-		//part.collider.isTrigger = false;
+		//remove the trigger, Tom: I don't know why, but doing this makes all the balls hit and none stick.
+		part.collider.isTrigger = false;
 
 		Rigidbody otherBody = part.transform.GetComponent<Rigidbody>();
 
@@ -107,7 +100,9 @@ public class Sticky : MonoBehaviour {
 		//add it into heirarchy so it is connected
 		part.transform.parent = transform;
 
-		
+
+		//HACK HACK HACK HACK HACK HACK HACK HACK HACK HACK HACK HACK 
+		//This sticky script is always run on the ship level, so this isn't really a tree.
 		//add to tree
 		MassComponent mc = new MassComponent(otherMass, otherCoM);
 		children.Add(otherSticky,mc);
@@ -131,6 +126,115 @@ public class Sticky : MonoBehaviour {
 	public void Unstick() {
 
 		// TODO This
-		Debug.Log ("Unsticking, yo");
+		Debug.Log ("Attempting to unstick " + transform.name);
+
+
+		//go through all the children, undo the sticking, collect the masscomponents
+		List<MassComponent> detachedMasses = new List<MassComponent>();
+
+
+
+
+
+		//list of stickies to destroy after iterating everything
+		List<Sticky> toDestroy = new List<Sticky>();
+
+		Queue<Sticky> toDetach = new Queue<Sticky>();
+		toDetach.Enqueue(this);
+
+		while(toDetach.Count > 0){
+			Sticky sticky = toDetach.Dequeue();
+
+			GameObject part = sticky.gameObject;
+
+
+
+			Debug.Log ("\tFirst unsticking " + part.transform.name);
+
+
+
+
+			//reset trigger
+			part.collider.isTrigger = true;
+
+
+			//remove it from the heirarchy
+			part.transform.parent = null;
+
+			//get its masscomponent from parent
+			if(sticky.transform.parent != null){
+
+				Sticky parent = sticky.transform.parent.GetComponent<Sticky>();
+				MassComponent mc = parent.children[sticky];
+
+				detachedMasses.Add (mc);
+				parent.children.Remove(sticky);
+
+				//add a rigidbody and give it the mass
+				Rigidbody partbody = part.AddComponent<Rigidbody>();
+				partbody.mass = mc.mass;
+			}
+
+
+			foreach (Transform child in sticky.transform){
+				Sticky s = child.GetComponent<Sticky>();
+				if(s != null){
+					Debug.Log ("\t\taddingchild");
+					toDetach.Enqueue(s);
+				}
+			}
+
+			//destroy self
+			toDestroy.Add(sticky);
+		}
+
+		foreach(Sticky s in toDestroy){
+			if(s.gameObject.transform.parent != null){
+				Destroy (s);
+			}
+			else
+			{
+				Debug.Log ("HAH!");
+			}
+
+
+		}
+
+
+		//get toplevel rigidbody
+		Transform t = transform;
+		while(t.parent != null){
+			t = t.parent;
+		}
+
+		Rigidbody body = t.GetComponent<Rigidbody>();
+
+
+
+		foreach(MassComponent mc in detachedMasses){
+			float lostMass = mc.mass;
+			Vector3 lostCoM = mc.centerOfMass;
+
+			float oldMass = body.mass;
+
+			//fix mass
+			body.mass = oldMass - lostMass;
+
+
+
+			Vector3 oldCoM = body.centerOfMass;
+
+			//vector pointing from mass lost to center of mass now
+			Vector3 coMDiff = oldCoM - lostCoM;
+
+			//fix center of mass
+			body.centerOfMass = oldCoM + coMDiff * (lostMass/oldMass); 
+
+		}
+
+
+
+
+
 	}
 }

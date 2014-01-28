@@ -6,13 +6,7 @@ public class Hitter : MonoBehaviour
 	public bool destroyOnHit = true;
 	
 	void OnCollisionEnter(Collision collision){
-
 		hit (collision.gameObject);
-	}
-
-	void OnTriggerEnter(Collider other) {
-
-		hit (other.gameObject);
 	}
 
 	private void hit(GameObject other) {
@@ -25,6 +19,6 @@ public class Hitter : MonoBehaviour
 		hittable.hit(gameObject);
 		
 		if (destroyOnHit)
-			Destroy (gameObject);
+			Destroy (this.gameObject);
 	}
 }
