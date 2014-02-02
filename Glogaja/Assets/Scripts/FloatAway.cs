@@ -5,8 +5,12 @@ public class FloatAway : MonoBehaviour {
 
 	public float speed = 5;
 	public float spin = 500;
-	
-	void Start () {
+
+	void Start(){
+		Float();
+	}
+
+	public void Float () {
 		float x = Random.Range(-1.0f, 1.0f);
 		float z = Random.Range(-1.0f, 1.0f);
 

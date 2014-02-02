@@ -3920,6 +3920,7 @@ GameObject:
   - 54: {fileID: 991840034}
   - 114: {fileID: 991840033}
   - 114: {fileID: 991840035}
+  - 114: {fileID: 991840039}
   m_Layer: 0
   m_Name: booster
   m_TagString: Untagged
@@ -4025,6 +4026,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 163256417}
   m_GameObject: {fileID: 991840031}
   m_Mesh: {fileID: 4300000, guid: e0c995137f49c3948b189dbe0681fb68, type: 3}
+--- !u!114 &991840039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: f8c97e1955f8cf04495bfd3ed2fda496,
+    type: 2}
+  m_PrefabInternal: {fileID: 163256417}
+  m_GameObject: {fileID: 991840031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &994766198
 Prefab:
   m_ObjectHideFlags: 0
@@ -4083,6 +4096,7 @@ GameObject:
   - 54: {fileID: 1036540886}
   - 114: {fileID: 1036540885}
   - 114: {fileID: 1036540887}
+  - 114: {fileID: 1036540892}
   m_Layer: 0
   m_Name: booster
   m_TagString: Untagged
@@ -4188,6 +4202,18 @@ Transform:
   m_Children:
   - {fileID: 1157079727}
   m_Father: {fileID: 753585908}
+--- !u!114 &1036540892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: f8c97e1955f8cf04495bfd3ed2fda496,
+    type: 2}
+  m_PrefabInternal: {fileID: 1732987322}
+  m_GameObject: {fileID: 1036540884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1088192219
 Prefab:
   m_ObjectHideFlags: 0
@@ -4328,7 +4354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ab0724c49815a44d9e06cff63abb03a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explodeForce: 15
+  explodeForce: .00999999978
 --- !u!114 &1110992774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5548,6 +5574,7 @@ GameObject:
   - 54: {fileID: 1273401955}
   - 114: {fileID: 1273401954}
   - 114: {fileID: 1273401956}
+  - 114: {fileID: 1273401961}
   m_Layer: 0
   m_Name: booster
   m_TagString: Untagged
@@ -5653,6 +5680,18 @@ Transform:
   m_Children:
   - {fileID: 1718400835}
   m_Father: {fileID: 753585908}
+--- !u!114 &1273401961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: f8c97e1955f8cf04495bfd3ed2fda496,
+    type: 2}
+  m_PrefabInternal: {fileID: 1088192219}
+  m_GameObject: {fileID: 1273401953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1364896545
 GameObject:
   m_ObjectHideFlags: 0
@@ -5667,6 +5706,7 @@ GameObject:
   - 54: {fileID: 1364896548}
   - 114: {fileID: 1364896547}
   - 114: {fileID: 1364896549}
+  - 114: {fileID: 1364896553}
   m_Layer: 0
   m_Name: booster
   m_TagString: Untagged
@@ -5772,6 +5812,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 96854247}
   m_GameObject: {fileID: 1364896545}
   m_Mesh: {fileID: 4300000, guid: e0c995137f49c3948b189dbe0681fb68, type: 3}
+--- !u!114 &1364896553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: f8c97e1955f8cf04495bfd3ed2fda496,
+    type: 2}
+  m_PrefabInternal: {fileID: 96854247}
+  m_GameObject: {fileID: 1364896545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1411778700
 GameObject:
   m_ObjectHideFlags: 0
@@ -8262,6 +8314,7 @@ GameObject:
   - 54: {fileID: 1912219639}
   - 114: {fileID: 1912219640}
   - 114: {fileID: 1912219641}
+  - 114: {fileID: 1912219642}
   m_Layer: 0
   m_Name: blaster
   m_TagString: Untagged
@@ -8366,6 +8419,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1912219642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: 67368f8f3767a4449b60e36d5be72eda,
+    type: 2}
+  m_PrefabInternal: {fileID: 1263556220}
+  m_GameObject: {fileID: 1912219634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2084023403
 GameObject:
   m_ObjectHideFlags: 0
@@ -8380,6 +8445,7 @@ GameObject:
   - 54: {fileID: 2084023405}
   - 114: {fileID: 2084023404}
   - 114: {fileID: 2084023410}
+  - 114: {fileID: 2084023411}
   m_Layer: 0
   m_Name: blaster
   m_TagString: Untagged
@@ -8482,5 +8548,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46a7827aec550304b9c09726abcd9c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2084023411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: 67368f8f3767a4449b60e36d5be72eda,
+    type: 2}
+  m_PrefabInternal: {fileID: 1576435654}
+  m_GameObject: {fileID: 2084023403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78311eda75765664aa59d851f9e3e740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

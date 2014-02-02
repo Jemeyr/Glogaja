@@ -7,7 +7,11 @@ public class FlyAway : MonoBehaviour {
 
 	private Vector3 direction = Vector3.zero;
 
-	void Start () {
+	void Start() {
+		Fly();
+	}
+
+	public void Fly () {
 		float x = Random.Range(-1.0f, 1.0f);
 		float z = Random.Range(-1.0f, 1.0f);
 

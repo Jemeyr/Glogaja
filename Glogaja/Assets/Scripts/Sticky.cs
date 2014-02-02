@@ -151,7 +151,7 @@ public class Sticky : MonoBehaviour {
 
 
 			//A lot of this doesn't apply to the toplevel ship entity
-			if(sticky.transform.parent != null){
+			if(sticky.transform.name != "ship"){//sticky.transform.parent != null){
 
 				//reset layer?
 				part.layer = 0;
@@ -175,8 +175,13 @@ public class Sticky : MonoBehaviour {
 				partbody.centerOfMass = Vector3.zero;
 
 				partbody.useGravity = false;
+
+
+
+
 			
-				partbody.AddForce( partbody.position - this.transform.position * explodeForce); 
+				//no force for now. I think there is an issue where the force is applied before the mass is set
+				partbody.AddForce( (partbody.position - this.transform.position) * explodeForce); 
 
 
 				
