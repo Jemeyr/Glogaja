@@ -3687,7 +3687,7 @@ Transform:
   m_PrefabInternal: {fileID: 994766198}
   m_GameObject: {fileID: 807567546}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.0194016, y: 0, z: 8.08965492}
+  m_LocalPosition: {x: -29.4612732, y: 0, z: 46.6220779}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3837,7 +3837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1110992769}
-  distance: 20
+  distance: 30
 --- !u!1 &929399744
 GameObject:
   m_ObjectHideFlags: 0
@@ -3847,7 +3847,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 929399747}
   - 114: {fileID: 929399746}
-  - 114: {fileID: 929399745}
   m_Layer: 0
   m_Name: CandyGenerator
   m_TagString: Untagged
@@ -3855,26 +3854,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &929399745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 929399744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d26a035a94c15e14b840f7b792f9e186, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colors:
-  - {fileID: 2100000, guid: 2f32c16dfaf338341b42bcd218d07bfe, type: 2}
-  - {fileID: 2100000, guid: a53569fc69297a745b58b1e68ac4d9fe, type: 2}
-  - {fileID: 2100000, guid: d0f913d2e202df04a96261b853d591b9, type: 2}
-  - {fileID: 2100000, guid: 0cc18bb2b5f8f664aac781e83fe8ebae, type: 2}
-  - {fileID: 2100000, guid: a0aad5a02d089b54483a351fb4cff0ee, type: 2}
-  - {fileID: 2100000, guid: f9352f7e30460f64b9c7a8c59f938756, type: 2}
-  jellybean: {fileID: 100000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
-  offset: {x: 0, y: 0, z: -15}
 --- !u!114 &929399746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3886,6 +3865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d26a035a94c15e14b840f7b792f9e186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clearDistance: 50
   colors:
   - {fileID: 2100000, guid: 2f32c16dfaf338341b42bcd218d07bfe, type: 2}
   - {fileID: 2100000, guid: a53569fc69297a745b58b1e68ac4d9fe, type: 2}
@@ -3893,7 +3873,14 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 0cc18bb2b5f8f664aac781e83fe8ebae, type: 2}
   - {fileID: 2100000, guid: a0aad5a02d089b54483a351fb4cff0ee, type: 2}
   - {fileID: 2100000, guid: f9352f7e30460f64b9c7a8c59f938756, type: 2}
-  jellybean: {fileID: 100000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+  candies:
+  - {fileID: 100000, guid: 978eb11b952ae1b4fb0d734a1136e6e2, type: 2}
+  - {fileID: 100000, guid: cb7436dc31eda8f4895ff7c708600465, type: 2}
+  parts:
+  - {fileID: 100000, guid: f8c97e1955f8cf04495bfd3ed2fda496, type: 2}
+  - {fileID: 100000, guid: 67368f8f3767a4449b60e36d5be72eda, type: 2}
+  enemies:
+  - {fileID: 100000, guid: da229c364a80ce64395bb35155313307, type: 2}
   offset: {x: 0, y: 0, z: 15}
 --- !u!4 &929399747
 Transform:
@@ -4047,7 +4034,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: da229c364a80ce64395bb35155313307, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 32.0194016
+      value: -29.4612732
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da229c364a80ce64395bb35155313307, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4055,7 +4042,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da229c364a80ce64395bb35155313307, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 8.08965492
+      value: 46.6220779
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da229c364a80ce64395bb35155313307, type: 2}
       propertyPath: m_LocalRotation.x
@@ -4354,7 +4341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ab0724c49815a44d9e06cff63abb03a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explodeForce: .00999999978
+  explodeForce: 1
 --- !u!114 &1110992774
 MonoBehaviour:
   m_ObjectHideFlags: 0

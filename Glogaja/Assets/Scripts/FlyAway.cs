@@ -12,12 +12,11 @@ public class FlyAway : MonoBehaviour {
 	}
 
 	public void Fly () {
-		float x = Random.Range(-1.0f, 1.0f);
-		float z = Random.Range(-1.0f, 1.0f);
 
-		direction = new Vector3(x,0.0f,z);
+		GameObject player = GameObject.Find("ship");
+
+		Vector3 direction = Vector3.MoveTowards(transform.position, player.transform.position, 1.0f);
 		direction.Normalize();
-
 
 		if(rigidbody != null){
 			rigidbody.AddForce(direction * speed);
